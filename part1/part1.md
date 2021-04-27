@@ -41,32 +41,32 @@
 11. What will this function return? Give a brief explanation. If the code causes an error, explain why.
     * The function will return `[50, 100, 150]` because that is each price discounted by 50%, and the variable `discounted` was declared using `const` in the `discountPrices` function, which is the same function that returned the array. The `const` keyword simply means that the elements in the `discounted` array cannot be reassigned, but we can still use `push` to add element to the array, as we do in the `for` loop.
 12. Given the above Object, write the notation for:
-    A. Accessing the value of the name property in the student object
+    * A. Accessing the value of the name property in the student object
        * `student.name`
-    B. Accessing the value of the Grad Year property in the student object
+    * B. Accessing the value of the Grad Year property in the student object
        * `student['Grad Year']`
-    C. Calling the function for the greeting property in the student object
+    * C. Calling the function for the greeting property in the student object
        * `student.greeting()`
-    D. Accessing the name property of the object in the Favorite Teacher property in student
+    * D. Accessing the name property of the object in the Favorite Teacher property in student
        * `student['Favorite Teacher'].name`
-    E. Access the first index in the array of the courseLoad property of the student object
+    * E. Access the first index in the array of the courseLoad property of the student object
        * `student.courseLoad[0]`
 13. Arithmetic
-    A. `'32'`
-    B. `1`
-    C. `3`
-    D. `'3null'`
-    E. `4`
-    F. `0`
-    G. `'3undefined'`
-    H. `NaN`
+    * A. `'32'`
+    * B. `1`
+    * C. `3`
+    * D. `'3null'`
+    * E. `4`
+    * F. `0`
+    * G. `'3undefined'`
+    * H. `NaN`
 14. Comparison
-    A. `true`
-    B. `false`
-    C. `true`
-    D. `false`
-    E. `false`
-    F. `true`
+    * A. `true`
+    * B. `false`
+    * C. `true`
+    * D. `false`
+    * E. `false`
+    * F. `true`
 15. Explain the difference between the == and === operators.
     * The == operator is the "regular equality" operator and uses type conversion before comparing the value of the operands. On the other hand, the === operator is the "strict equality" operator and only returns `true` if the two operands have the same value and the same type.
 16. Given the above Object, write a for...in loop that will iterate through it and print out the value of the property if the property starts with the letter r, or if the value of that property is an odd number.  (This should be in a JS file part1b-question16.js)
